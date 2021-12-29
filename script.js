@@ -1,5 +1,5 @@
 const API_WEATHER_URL = "https://wttr.in/";
-const API_WEATHER_FORMAT = "?format=j1"
+const API_WEATHER_FORMAT = "?format=j1";
 
 const temperature = document.querySelector("span.temperature");
 const wind = document.querySelector("span.wind");
@@ -13,7 +13,7 @@ onload = weatherRequest("");
 searchButton.addEventListener("click", () => {
     let city = input.value;
     weatherRequest(city);
-})
+});
 
 function weatherRequest(city) {
     fetch(`${API_WEATHER_URL}${city}${API_WEATHER_FORMAT}`)
@@ -25,5 +25,5 @@ function weatherRequest(city) {
             temperature.textContent = `${currentCondition.temp_C}°C`;
             wind.textContent = `${currentCondition.windspeedKmph} Km/h`;
             humidity.textContent = `${currentCondition.humidity}%`;
-        })
+        });
 }
