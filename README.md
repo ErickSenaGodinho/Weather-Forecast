@@ -1,4 +1,4 @@
 # Weather-Forecast
- Wheather Forecast project to learn ajax
+Wheather Forecast project to learn ajax
 
-![Picture of the Weather Forecast](Home.png)
+![Picture of the Weather Forecast](images/Home.png)
