@@ -44,7 +44,7 @@ img {
 .information {
     display: grid;
     position: absolute;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 5fr;
     column-gap: 10%;
     row-gap: 2.5%;
     margin: 10px 5px;
